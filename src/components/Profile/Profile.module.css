@@ -1,0 +1,915 @@
+.root {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 40px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.card {
+  position: absolute;
+  left: 14px;
+  top: 108px;
+  width: 348px;
+  height: 196px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 8px;
+  padding: 16px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.unnamed {
+  color: #0d99ff;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 146px;
+  top: 3px;
+  width: 100px;
+  height: 19px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.unnamed2 {
+  color: #a6a35a;
+  font-size: 24px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 160px;
+  top: 65px;
+  width: 180px;
+  height: 29px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper2 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.unnamed3 {
+  color: #a6a35a40;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 190px;
+  top: 50px;
+  width: 180px;
+  height: 29px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper3 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.unnamed4 {
+  color: #a6a35a1a;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 196px;
+  top: 33px;
+  width: 180px;
+  height: 29px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper4 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.unnamed5 {
+  color: #a6a35a40;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 172px;
+  top: 91px;
+  width: 180px;
+  height: 29px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper5 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.unnamed6 {
+  color: #a6a35a1a;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 203px;
+  top: 111px;
+  width: 180px;
+  height: 29px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper6 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.action {
+  position: absolute;
+  left: 254px;
+  top: 142px;
+  width: 100px;
+  height: 19px;
+  flex-direction: column;
+}
+.unnamed7 {
+  color: #0d99ff;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 256px;
+  top: 136px;
+  width: 100px;
+  height: 19px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper7 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.unnamed8 {
+  color: #828282;
+  font-size: 6px;
+  line-height: 140%;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 168px;
+  top: 183px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.progressbar {
+  position: absolute;
+  left: 168px;
+  top: 163px;
+  width: 164px;
+  height: 14px;
+  background-color: #bbb;
+  overflow: hidden;
+}
+.value {
+  position: relative;
+  width: 121px;
+  align-self: stretch;
+  flex-direction: column;
+  background-color: #0d99ff;
+  overflow: hidden;
+}
+._23 {
+  color: #000;
+  font-size: 8px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  width: 118px;
+  height: 9px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper8 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.information {
+  position: absolute;
+  left: 1px;
+  top: 329px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name {
+  width: 375px;
+  height: min-content;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.unnamed9 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100px;
+  height: min-content;
+  flex-direction: column;
+}
+.info {
+  height: min-content;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.unnamed10 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 211px;
+  height: min-content;
+  flex-direction: column;
+}
+.iconChevron_Right {
+  width: 20px;
+  height: 20px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.username {
+  width: 375px;
+  height: 48px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.information2 {
+  position: absolute;
+  left: 1px;
+  top: 377px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name2 {
+  width: 375px;
+  height: min-content;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.iDEmail {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100px;
+  height: min-content;
+  flex-direction: column;
+}
+.info2 {
+  height: min-content;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+._201911788KyonggiAcKr {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 211px;
+  height: min-content;
+  flex-direction: column;
+}
+.iconChevron_Right2 {
+  width: 20px;
+  height: 20px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.username2 {
+  width: 375px;
+  height: 48px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.information3 {
+  position: absolute;
+  left: 1px;
+  top: 425px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name3 {
+  width: 375px;
+  height: min-content;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.unnamed11 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100px;
+  height: min-content;
+  flex-direction: column;
+}
+.info3 {
+  height: min-content;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.unnamed12 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 211px;
+  height: min-content;
+  flex-direction: column;
+}
+.iconChevron_Right3 {
+  width: 20px;
+  height: 20px;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.username3 {
+  width: 375px;
+  height: 48px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.information4 {
+  position: absolute;
+  left: 1px;
+  top: 473px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name4 {
+  width: 375px;
+  height: min-content;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.unnamed13 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100px;
+  height: min-content;
+  flex-direction: column;
+}
+.info4 {
+  height: min-content;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+._1000296554 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 211px;
+  height: min-content;
+  flex-direction: column;
+}
+.iconChevron_Right4 {
+  width: 20px;
+  height: 20px;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.username4 {
+  width: 375px;
+  height: 48px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.information5 {
+  position: absolute;
+  left: 1px;
+  top: 521px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name5 {
+  width: 375px;
+  height: min-content;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.unnamed14 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100px;
+  height: min-content;
+  flex-direction: column;
+}
+.info5 {
+  height: min-content;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+._1012345678 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 211px;
+  height: min-content;
+  flex-direction: column;
+}
+.iconChevron_Right5 {
+  width: 20px;
+  height: 20px;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+.username5 {
+  width: 375px;
+  height: 48px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.information6 {
+  position: absolute;
+  left: 1px;
+  top: 569px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name6 {
+  width: 375px;
+  height: min-content;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.unnamed15 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100px;
+  height: min-content;
+  flex-direction: column;
+}
+.info6 {
+  height: min-content;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+._5 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 211px;
+  height: min-content;
+  flex-direction: column;
+}
+._52 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 57px;
+  height: 20px;
+  flex-direction: column;
+}
+.iconChevron_Right6 {
+  width: 20px;
+  height: 20px;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+}
+.button {
+  width: 146px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
+  border-radius: 8px;
+  background-color: #1e89ef;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+}
+.unnamed16 {
+  color: #fff;
+  font-size: 13px;
+  line-height: 150%;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.username6 {
+  width: 375px;
+  height: 48px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.information7 {
+  position: absolute;
+  left: 1px;
+  top: 617px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name7 {
+  width: 375px;
+  height: min-content;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.unnamed17 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100px;
+  height: min-content;
+  flex-direction: column;
+}
+.info7 {
+  height: min-content;
+  flex: 1;
+  justify-content: flex-end;
+}
+.iconChevron_Right7 {
+  width: 20px;
+  height: 20px;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+}
+.username7 {
+  width: 375px;
+  height: 48px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.information8 {
+  position: absolute;
+  left: 1px;
+  top: 666px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name8 {
+  width: 375px;
+  height: min-content;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.unnamed18 {
+  color: #000;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100px;
+  height: min-content;
+  flex-direction: column;
+}
+.info8 {
+  height: min-content;
+  flex: 1;
+  justify-content: flex-end;
+}
+.iconChevron_Right8 {
+  width: 20px;
+  height: 20px;
+}
+.icon8 {
+  width: 100%;
+  height: 100%;
+}
+.username8 {
+  width: 375px;
+  height: 48px;
+  padding: 14px 16px;
+  overflow: hidden;
+}
+.profile {
+  position: absolute;
+  left: calc(50% - 98px);
+  top: 121px;
+  width: 163px;
+  height: 169px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  transform: translateX(-50%);
+}
+.avatar {
+  position: absolute;
+  left: 36.5px;
+  top: 0;
+  width: 90px;
+  height: 98px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 1000px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.rectangle1 {
+  position: absolute;
+  left: -1.1111%;
+  right: 1.1111%;
+  top: 0;
+  bottom: 0;
+  background-image:/* webpackIgnore: true */ url('/assets/rectangle1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.action2 {
+  position: absolute;
+  left: 0;
+  top: 120px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+}
+.unnamed19 {
+  color: #0d99ff;
+  font-size: 13px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 163px;
+  height: 59px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper9 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+.header {
+  position: absolute;
+  left: 0;
+  top: 44px;
+  width: 375px;
+  height: 42px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: inset 0px -0.5px 0px #e6e6e6;
+}
+.iconChevron_Left {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  overflow: visible;
+  transform: translateY(-50%);
+}
+.icon9 {
+  width: 100%;
+  height: 100%;
+}
+.unnamed20 {
+  color: #000;
+  font-size: 17px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.statusBarIPhoneXOrNewer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 375px;
+  height: 44px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rightSide {
+  position: absolute;
+  left: 293.6667px;
+  top: 17.3307px;
+  width: 66.6614px;
+  height: 11.336px;
+  overflow: visible;
+}
+.icon10 {
+  width: 100%;
+  height: 100%;
+}
+.time {
+  position: absolute;
+  left: 21px;
+  top: 12px;
+  width: 54px;
+  height: 21px;
+  overflow: visible;
+}
+.icon11 {
+  width: 100%;
+  height: 100%;
+}
+.line13 {
+  position: relative;
+  left: 166.4859px;
+  top: 293.0015px;
+  width: 2px;
+  max-width: 100%;
+  height: 182.0027px;
+  max-height: 100%;
+}
+.line13::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: translateY(182.0027px) rotate(-90deg);
+  width: 182.0027px;
+  height: 0;
+  outline: solid 1px #000;
+}
+.homeIndicator {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 375px;
+  height: 34px;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: translateX(-50%);
+}
+.homeIndicator2 {
+  position: absolute;
+  left: calc(50% - -0.5px);
+  bottom: 8px;
+  width: 134px;
+  height: 5px;
+  border-radius: 100px;
+  background-color: #000;
+  transform: translateX(-50%);
+}
